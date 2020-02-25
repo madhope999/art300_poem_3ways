@@ -1,0 +1,141 @@
+body {
+    font-family: poynter-oldstyle-text, serif;
+    font-style: normal;
+    font-weight: 400;
+    background: linear-gradient(90deg, #fff 50%, rgb(255, 255, 159) 50%);
+    margin: 0;
+    padding: 0;
+  }
+  
+p {
+  margin: 50px;
+  min-height: 100px;
+}
+
+.title {
+  margin: auto;
+  font-size: 7vw;
+  text-align: center;
+  color: rgb(243, 83, 58);
+  
+}
+
+.author {
+  font-size: 3vw;
+  text-align: center;
+  color: rgb(250, 159, 66);
+
+}
+
+.poem {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin: auto;
+    
+
+
+}
+
+.questions {
+  color: rgb(90, 207, 201);
+  font-size: 3vw;
+ 
+
+}
+
+.answers {
+  color:rgb(243, 83, 58);
+  font-size: 3vw;
+  
+
+
+}
+
+
+.left-meta {
+  margin-left: 30vw;
+  color: rgb(250, 159, 66);
+
+}
+
+.right-meta {
+  margin-left: 55vw;
+  color: rgb(250, 159, 66);
+
+}
+
+  /* Phone Styles */
+  @media screen and (max-width: 767px) {
+    
+    .title {
+      margin: auto;
+      font-size: 5vw;
+      text-align: center;
+      color:rgb(243, 83, 58);
+    }
+    .author {
+      font-size: 3vw;
+      text-align: center;
+      color: rgb(250, 159, 66);
+    }
+
+    .answers {
+      font-size: 3vw;
+      color:rgb(243, 83, 58);
+      min-height: 11vw;
+    }
+
+    .questions {
+      font-size: 3vw;
+      min-height: 10vw;
+      
+
+    }
+
+    .left-meta {
+      margin-left: 20vw;
+    
+    }
+  
+  }
+  
+  /* Tablet Styles */
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+   
+    .title {
+      margin: auto;
+      font-size: 6vw;
+      text-align: center;
+      color: rgb(250, 159, 66);
+  
+    }
+    .author {
+      font-size: 3vw;
+      text-align: center;
+      color:rgb(243, 83, 58);
+    
+    }
+
+    .left-meta {
+      margin-left: 26vw;
+
+    }
+
+    .questions {
+      font-size: 3.5vw;
+      margin-left: 1vw;
+    }
+    
+    .answers {
+      font-size: 3.5vw;
+      margin-left: 7vw;
+
+    }
+
+    
+    
+  }
+
+
